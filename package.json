@@ -1,0 +1,25 @@
+{
+  "name": "library-membership-and-fine-payment-system",
+  "version": "1.0.0",
+  "description": "Library Membership & Fine Payment Management System - Full Stack MERN Web Application",
+  "scripts": {
+    "dev": "npm run server:dev",
+    "server": "cd backend && npm start",
+    "server:dev": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "seed": "cd backend && npm run seed",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "install:all": "cd backend && npm install && cd ../frontend && npm install"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb",
+    "library-management",
+    "fine-payment"
+  ],
+  "author": "Central College Library Team",
+  "license": "MIT"
+}
